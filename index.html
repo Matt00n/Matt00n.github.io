@@ -2,7 +2,7 @@
 <html lang="en">
 <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-    <!-- Google tag (gtag.js) -->
+    <!-- Google tag (gtag.js), pls remove when using this code or my google analytics tags will track your page -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-FFWEWT29RL"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
@@ -18,10 +18,9 @@
         redo links (Mail, github etc), ideally as icons
         push cv stuff to extra page
         redo buttons at top as link to cv page, remove vertical bars *
-        add research overview *
-        google analytics *
-        better picture
+        redo images (squares, shadow, etc.)
         image sizes & alignment on page
+        research button at top and in publications section
      -->
 
     <title>Matthias Lehmann</title>
@@ -60,6 +59,8 @@
                         </td>
                         <td style="padding:2.5%;width:55%;max-width:55%">
                             <p style="text-align:right">
+                                <a href="#research" onclick=Expand("research")>Research</a>
+                                &nbsp|&nbsp
                                 <a href="#publications" onclick=Expand("publications")>Publications</a>
                                 &nbsp|&nbsp
                                 <a href="#projects" onclick=Expand("projects")>Projects</a>
@@ -130,7 +131,7 @@
                         </td>
                         <td style="padding:2.5%;width:30%;vertical-align:top">
                             <div class="w3-card-2">
-                                <img style="width:100%;max-width:100%" alt="profile photo" src='images/Matthias.png' class="w3-round">
+                                <img style="width:100%;max-width:100%" alt="profile photo" src='images/ML_casual.jpg' class="w3-round">
                             </div>
                         </td>
                         <!-- <td style="padding:2.5%;width:30%;max-width:30%">
@@ -388,7 +389,7 @@
 
                     <tr>
                         <td align="justify" style="text-align: justify; text-justify: inter-word;">
-                            Under construction. Have a look at my research interests and <a href="#projects" onclick=Expand("projects")>projects</a> to get a glimpse at my research!
+                            Under construction. Have a look at my <a href="#research" onclick=Expand("research")>research interests</a> and <a href="#projects" onclick=Expand("projects")>projects</a> to get a glimpse at my research!
                         </td>
                     </tr>
 
