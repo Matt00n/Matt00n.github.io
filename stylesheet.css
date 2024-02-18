@@ -865,7 +865,8 @@ article > h1:first-child {
 
 .collection h3 {
     font-size: 1.25em;
-    margin:-.2em 0 .3em
+    margin:-.2em 0 .3em;
+    color: black;
 }
 
 .collection a h3:hover {
