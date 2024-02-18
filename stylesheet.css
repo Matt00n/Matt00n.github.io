@@ -464,7 +464,8 @@ h1 {
 }
 
 h2 {
-    font-size:1.6em
+    font-size:1.6em;
+    margin: 0 0 .8em 0;
 }
 
 h3 {
